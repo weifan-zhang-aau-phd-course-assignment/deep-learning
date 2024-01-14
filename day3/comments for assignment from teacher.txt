@@ -1,0 +1,1 @@
+I have very much liked your report. Good job! The only point of criticism that I find is that you get a test accuracy quite lower than the expected of 96%. I have taken a quick look at your implementation and, at a glance, all looks OK, so not sure where the problem may come from.

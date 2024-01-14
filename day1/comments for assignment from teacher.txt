@@ -1,0 +1,7 @@
+I would not consider shrinking the learning rate to be a strategy to fight against overfitting. Of course, if you reduce it and you keep the same number of training epochs, since your convergence will be slower, it is possible that you do not incur into overfitting (like a sort of indirect and complicated early-stopping). But other than that, I see no potential benefit.
+
+I have very much liked your report. Keep like that!
+
+Good job, generally. However, I was expecting better test accuracy, around 86%. Ok, maybe it is because you are using too many layers. The input layers is an abstraction, no parameters. Therefore, what you denote your input layer when calculating the number of parameters is actually your first hidden layer. You may then be needing one hidden layer less. That way, you would have got the right number of parameters: 567,171.
+
+By the way, never let a "machine" (or human) think for you \wink.
